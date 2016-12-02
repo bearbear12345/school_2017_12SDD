@@ -14,21 +14,23 @@ include_once 'globals/header.php';?>
 
 <?php
 include_once "lib/dbconnect.php";
-$sql = "SELECT * FROM `clients`";
+$sql = "SELECT * FROM `applicationdb`";
 $s   = mysql_query($sql, $db);
 $record = mysql_fetch_array($s);
 echo "\n      <table class='u-full-width'>";
 echo "
-        <thead><tr><th>Prefix</td><th>First Name</th><th>Surname</th><th>Email Address</th><th>Phone Number</th><th>Gender</th></tr></thead>
+        <thead><tr><th>Product Name</td><th>Publisher</th><th>Description</th><th>Product Website</th><th>Category</th></tr></thead>
         <tbody>\n";
 while ($record = mysql_fetch_array($s)) {
-    $firstname = $record['first_name'];
-    $lastname  = $record['last_name'];
-    $title     = $record['title'];
-    $email     = $record['email'];
-    $phone     = $record['phone'];
-    $gender    = $record['gender'];
-    echo "          <tr><td>$title</td><td>$firstname</td><td>$lastname</td><td>$email</td><td>$phone</td><td>$gender</td></tr>\n";
+    $appname = $record['Product Name'];
+    $apppubl = $record['Publisher'];
+    $appdesc = $record['Description'];
+    $appsite = $record['Product Link'];
+    $appcate = $record['Category'];
+    $_apppubl = substr($apppubl,0,20)."...";
+    $_appsite = substr($appsite,0,20)."...";
+    $_appdesc = substr($appdesc,0,20)."...";
+    echo "          <tr><td>$appname</td><td>$_apppubl</td><td>$_appdesc</td><td><a href='$appsite'>$_appsite</a></td><td>$appcate</td></tr>\n";
 }
 echo "        </tbody>\n      </table>";
 

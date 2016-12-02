@@ -4,18 +4,18 @@
  * Andrew Wong 2016                              *
  * http://github.com/bearbear12345/school_sdd_db *
  * * * * * * * * * * * * * * * * * * * * * * * * */
- $pageTitle = "MyBiz | Home";
+ $pageTitle = "TopApps | Home";
 include_once 'globals/header.php'; ?>
       <section class="header">
-        <h2 class="title">= MyBiz Landing =</h2>
+        <h2 class="title">= TopApps Landing =</h2>
         <div class="value-props row">
           <div class="four columns value-prop">
             <a href="queryall.php"><img class="value-img" src="images/feather.svg">
-            Light as a feather at ~400 lines &amp; built with mobile in mind.</a>
+            List all applications</a>
           </div>
           <div class="four columns value-prop">
             <img class="value-img" src="images/pens.svg">
-            Styles designed to be a starting point, not a UI framework.
+            List all applications
           </div>
           <div class="four columns value-prop">
             <img class="value-img" src="images/watch.svg">

@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>WONG, Andrew J</Author>
+  <LastAuthor>WONG, Andrew J</LastAuthor>
+  <Created>2016-12-01T03:32:27Z</Created>
+  <LastSaved>2016-12-01T03:22:40Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11445</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Book1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="62" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="3" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="460.5"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="331.5"/>
+   <Column ss:Width="331.5"/>
+   <Row>
+    <Cell><Data ss:Type="String">AID</Data></Cell>
+    <Cell><Data ss:Type="String">Product Name</Data></Cell>
+    <Cell><Data ss:Type="String">Publisher</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Product Link</Data></Cell>
+    <Cell><Data ss:Type="String">Categories</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">@icon sushi</Data></Cell>
+    <Cell><Data ss:Type="String">Towofu's SOFT</Data></Cell>
+    <Cell><Data ss:Type="String">@icon sushi is an image to icon converter that supports the mask editor and the creation of Windows XP 32bit/Windows Vista format icons.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.towofu.net/soft/e-aicon.php</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">7-Zip</Data></Cell>
+    <Cell><Data ss:Type="String">Igor Pavlov</Data></Cell>
+    <Cell><Data ss:Type="String">7-Zip uses its own 7z archive format, but can read and write several other archive formats. The program can be used from a command-line interface, graphical user interface, or with a window-based shell integration. 7-Zip began in 1999 and is developed by Igor Pavlov. The cross-platform version of the command-line utility, p7zip, is also available.</Data></Cell>
+    <Cell><Data ss:Type="String">http://7-zip.org/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">astroGREP</Data></Cell>
+    <Cell><Data ss:Type="String">Theodore L. Ward &amp; Curtis Beard</Data></Cell>
+    <Cell><Data ss:Type="String">AstroGrep is A Microsoft Windows GUI File Searching (grep) utility. Features include regular expressions, versatile printing options, stores most recent used paths and has a &quot;context&quot; feature which is very nice for looking at source code.</Data></Cell>
+    <Cell><Data ss:Type="String">http://astrogrep.sourceforge.net/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">Audacity</Data></Cell>
+    <Cell><Data ss:Type="String">The Audacity Team</Data></Cell>
+    <Cell><Data ss:Type="String">Audacity is free, open source software for recording and editing sounds. You can use Audacity to record live audio, convert tapes and records, edit sound files, change the speed or pitch of a recording and much more.</Data></Cell>
+    <Cell><Data ss:Type="String">http://audacityteam.org/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">Blender</Data></Cell>
+    <Cell><Data ss:Type="String">Blender Foundation</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Blender is the free open source 3D content creation suite, available for all major operating systems under the GNU General Public License.&#10;It can be used for modeling, UV unwrapping, texturing, rigging, water simulations, skinning, animating, rendering, particle and other simulations, non-linear editing, compositing, and creating interactive 3D applications, rigid body, fluid, cloth and softbody dynamics, modifier based modeling tools, powerful character animation tools, a node based&#10;material and compositing system and Python for embedded scripting.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.blender.org/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="195">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Chrome</Data></Cell>
+    <Cell><Data ss:Type="String">Google Inc.</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">A free web browser developed by Google from the open source Small Chromium iconChromium project with a focus on speed and minimalism. Chrome offers fast start-up and web page loading, sports a minimalist user interface, automatically updates in the background, and offers syncing of browser bookmarks, extensions, passwords, and history between multiple computers by Google account.&#10;&#10;Additionally, Chrome has Flash and PDF support built into the browser for better speed and security.&#10;&#10;Chrome Web Apps and Extensions are available on Small Chrome Web Store iconChrome Web Store .&#10;&#10;Available in more than 50 languages.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.google.com/chrome</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">ClickMonitorDDC</Data></Cell>
+    <Cell><Data ss:Type="String">mapini</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ClickMonitorDDC can adjust brightness and contrast of external monitors &#10;by using DDC-protocol over monitor-cable (DVI, HDMI, DisplayPort, VGA). &#10;Nearly all monitors support DDC-protocol, but some monitors may not work&#10;because of faulty or no DDC-protocol. A few monitors allow to deactivate DDC-protocol,&#10;this is not recommended, also windows makes use of DDC to find out about best resolution.&#10;Some monitors offer special modes with fixed brightness/contrast for games etc.&#10;in this case adjusting values will fail.</Data></Cell>
+    <Cell><Data ss:Type="String">http://clickmonitorddc.bplaced.net/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">ColorPix</Data></Cell>
+    <Cell><Data ss:Type="String">ColorSchemer</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ColorPix is a useful little color picker that grabs the pixel under your mouse and transforms it into a number of different color formats.&#10;&#10;You can use the built-in magnifier to zoom in on your screen, click on a color value to copy it directly to the clipboard, and even keep ColorPix on top of all other apps and out of the way.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.colorschemer.com/colorpix_info.php</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">Dropbox</Data></Cell>
+    <Cell><Data ss:Type="String">Dropbox Inc</Data></Cell>
+    <Cell><Data ss:Type="String">Put your files into your Dropbox on one computer, and they'll be instantly available on any of your other computers that also have Dropbox installed. Because copies of your files are stored on Dropbox's secure servers, you can also access them from any computer or mobile device using the Dropbox website.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.dropbox.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Duet Display</Data></Cell>
+    <Cell><Data ss:Type="String">Duet Inc</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Duet makes your iPad and your Mac more powerful together. Slide Mac apps to your iPad as a second display. No lag, Duet helps you multi-task and work faster with more screen space. It doesn't require internet, just plug and play to get started and you can use the iPad's touch display too. Draw on the screen, produce beats with midi boards, design on the iPad and more.&#10;&#10;Duet is used by industrial designers, software developers, musicians, illustrators and more. It's portability has made Duet useful in coffeeshops, airports and conferences.&#10;&#10;More space. More play. More speed. More touch.&#10;Combine the power of your devices with Duet.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.duetdisplay.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">DxO OpticsPro</Data></Cell>
+    <Cell><Data ss:Type="String">DxO Labs</Data></Cell>
+    <Cell><Data ss:Type="String">DxO Labs offers products and solutions ensuring excellence in digital imaging.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.dxo.com/us/photography/photo-software/dxo-opticspro</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">Everything</Data></Cell>
+    <Cell><Data ss:Type="String">Voidtools</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Everything&quot; is an administrative tool that locates files and folders by filename instantly for Windows. Unlike Windows search &quot;Everything&quot; initially displays every file and folder on local or removable NTFS volumes on your computer (hence the name &quot;Everything&quot;), and on mapped network drives with ETP server and an everything installation too. You type in a search filter to limit what files and folders are displayed. 19 languages supported.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.voidtools.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="300">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">f.lux</Data></Cell>
+    <Cell><Data ss:Type="String">f.lux Software LLC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ever notice how people texting at night have that eerie blue glow?&#10;&#10;Or wake up ready to write down the Next Great Idea, and get blinded by your computer screen?&#10;During the day, computer screens look good—they're designed to look like the sun. But, at 9PM, 10PM, or 3AM, you probably shouldn't be looking at the sun.&#10;&#10;f.lux fixes this: it makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day.&#10;&#10;It's even possible that you're staying up too late because of your computer. You could use f.lux because it makes you sleep better, or you could just use it just because it makes your computer look better.&#10;&#10;f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.&#10;&#10;Tell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically.</Data></Cell>
+    <Cell><Data ss:Type="String">https://justgetflux.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">FeedDemon</Data></Cell>
+    <Cell><Data ss:Type="String">Nick Bradbury</Data></Cell>
+    <Cell><Data ss:Type="String">FeedDemon is a popular RSS reader for Windows, with an easy-to-use interface that makes it a snap to stay informed with the latest news and information.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.feeddemon.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Fences</Data></Cell>
+    <Cell><Data ss:Type="String">Stardock</Data></Cell>
+    <Cell><Data ss:Type="String">Fences is a one-of-a-kind program, allowing you to draw labeled shaded areas on your desktop, which become movable and resizable containers for your desktop icons. These groups can help bring organization and consistency to your computers desktop, solving the &quot;constant mess&quot; problem that has plagued the desktop since its inception. </Data></Cell>
+    <Cell><Data ss:Type="String">http://www.stardock.com/products/fences/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">Fiddler</Data></Cell>
+    <Cell><Data ss:Type="String">Telerik</Data></Cell>
+    <Cell><Data ss:Type="String">Fiddler is a Web Debugging Proxy which logs all HTTP(S) traffic between your computer and the Internet. Fiddler allows you to inspect all HTTP(S) traffic, set breakpoints, and &quot;fiddle&quot; with incoming or outgoing data. Fiddler includes a powerful event-based scripting subsystem, and can be extended using any .NET language.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.telerik.com/fiddler</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">FileZilla</Data></Cell>
+    <Cell><Data ss:Type="String">FileZilla Project</Data></Cell>
+    <Cell><Data ss:Type="String">FileZilla is a powerful FTP-client. It has been designed for ease of use and with support for as many features as possible, while still being fast and reliable.</Data></Cell>
+    <Cell><Data ss:Type="String">http://filezilla-project.org/</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Firefox</Data></Cell>
+    <Cell><Data ss:Type="String">Mozilla Foundation</Data></Cell>
+    <Cell><Data ss:Type="String">Mozilla Firefox is a free and open source web browser descended from the Mozilla Application Suite. Firefox is highly extensible, with thousands of third-party add-ons available.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.mozilla.org/firefox/</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Franz</Data></Cell>
+    <Cell><Data ss:Type="String">Stefan Malzner</Data></Cell>
+    <Cell><Data ss:Type="String">Franz is a free messaging app / former Emperor of Austria and combines chat &amp; messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more. You can download Franz for Mac, Windows &amp; Linux.</Data></Cell>
+    <Cell><Data ss:Type="String">http://meetfranz.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Google Drive</Data></Cell>
+    <Cell><Data ss:Type="String">Google Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">Google Drive is a file storage and synchronization service which enables user cloud storage, file sharing and collaborative editing.</Data></Cell>
+    <Cell><Data ss:Type="String">https://drive.google.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Illustrator</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe</Data></Cell>
+    <Cell><Data ss:Type="String">Design quickly and confidently with Adobe Illustrator software. Sophisticated tools for drawing and typography, along with advanced color controls and creative effects, provide a comprehensive vector graphics environment. Explore more efficient ways of working with multiple artboards, a Blob Brush tool for intuitive vector painting, and transparency in gradients with on-object controls. Stay ahead of the pace of change — equip yourself with precisely the tools you need for today’s print, web , interactive, motion, and mobile content design.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.adobe.com/products/illustrator.html</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">JustDecompile</Data></Cell>
+    <Cell><Data ss:Type="String">Telerik</Data></Cell>
+    <Cell><Data ss:Type="String">JustDecompile is a stand-alone, free decompiling tool which converts assemblies into source code.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.telerik.com/products/decompiler.aspx</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">Kodi</Data></Cell>
+    <Cell><Data ss:Type="String">Kodi Team</Data></Cell>
+    <Cell><Data ss:Type="String">Kodi, formerly XBMC, is a free and open source media player and entertainment center for Linux, Mac OS X, Windows, XBox, and iOS. Kodi is designed to be the perfect companion to a home theater PC - it supports an almost endless range of remote controls, and combined with its beautiful (and highly &quot;skinnable&quot;) interface, Kodi feels very natural to use from the couch.</Data></Cell>
+    <Cell><Data ss:Type="String">http://kodi.tv/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Live</Data></Cell>
+    <Cell><Data ss:Type="String">Ableton</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ableton Live is about making music; for composition, songwriting, recording, production, remixing and live performance. Live's nonlinear, intuitive flow, alongside powerful real-time editing and flexible performance options, make it a unique studio tool and a favorite with live performers. If you'd rather be &quot;making music&quot; than just &quot;using music software,&quot; Ableton Live is for you. Live 8, the latest version, includes a wealth of new techniques and improvements with a&#10;new groove engine, revamped warping, live looping, new effects, crossfades in the Arrangement View and a reworked MIDI editor.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.ableton.com/en/live/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Melodyne</Data></Cell>
+    <Cell><Data ss:Type="String">Celemony</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Celemony Melodyne is the perfect quick and easy tool for all your tuning needs. Great for editing pitches of instrument and vocal recordings (auto-tuning your voice) and even sounding like a robot!&#10;30-day unlimited trial.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.celemony.com/cms/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">Mumble</Data></Cell>
+    <Cell><Data ss:Type="String">Mumble</Data></Cell>
+    <Cell><Data ss:Type="String">Mumble was the first and is the most successful and wide spread free and open source software for VoIP. It was the first VoIP software to provide low-latency audio suitable for gaming, and at the same time was a pioneer in high audio quality at the same time.</Data></Cell>
+    <Cell><Data ss:Type="String">http://mumble.sourceforge.net/</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">NetMeter</Data></Cell>
+    <Cell><Data ss:Type="String">Hoo Technologies</Data></Cell>
+    <Cell><Data ss:Type="String">Net Meter monitors network traffic through all network connections on the computer it's installed on, and displays real-time graphical and numerical downloading and uploading speeds. </Data></Cell>
+    <Cell><Data ss:Type="String">http://www.hootech.com/NetMeter/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">Offload</Data></Cell>
+    <Cell><Data ss:Type="String">Red Giant Software</Data></Cell>
+    <Cell><Data ss:Type="String">Offload is a copy utility for media card files. Get your footage and stills off your camera safely and quickly, with complete trust.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.redgiant.com/products/offload/</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">paint.NET</Data></Cell>
+    <Cell><Data ss:Type="String">dotPDN LLC</Data></Cell>
+    <Cell><Data ss:Type="String">Paint.NET is a free image and photo editing software. It features an intuitive and innovative user interface with support for layers, unlimited undo, special effects, and a wide variety of useful and powerful tools. An active and growing online community provides friendly help, tutorials, and plugins.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.getpaint.net/</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">PhantomPDF</Data></Cell>
+    <Cell><Data ss:Type="String">Foxit</Data></Cell>
+    <Cell><Data ss:Type="String">Ideal for groups of all sizes, this full featured solution to create, edit, comment, collaborate and share, secure, organize, export, scan and OCR, and sign PDF documents and forms. It also supports ConnectedPDF features, which extend the ISO PDF standard to allow each PDF to carry a unique identifier that leverages the power of the cloud to keep you and your PDFs connected, and enables you to track and share your documents easily.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.foxitsoftware.com/pdf-editor/</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop was created in 1988 by Thomas and John Knoll. Since then, it has become the de facto industry standard in raster graphics editing, such that the word &quot;photoshop&quot; has become a verb as in &quot;to Photoshop an image,&quot; &quot;photo shopping,&quot; and &quot;photoshop contest,&quot; etc. It can edit and compose raster images in multiple layers and supports masks, alpha compositing and several color models including RGB, CMYK, Lab color space, spot color and duotone.</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.adobe.com/products/photoshop.html</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">PluralEyes</Data></Cell>
+    <Cell><Data ss:Type="String">Red Giant Software</Data></Cell>
+    <Cell><Data ss:Type="String">Automatic sync of several video and audio files.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.redgiantsoftware.com/products/all/pluraleyes/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">Polar Clock</Data></Cell>
+    <Cell><Data ss:Type="String">pixelbreaker</Data></Cell>
+    <Cell><Data ss:Type="String">A fancy clock screensaver</Data></Cell>
+    <Cell><Data ss:Type="String">http://blog.pixelbreaker.com/polarclock</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="135">
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">ProPresenter</Data></Cell>
+    <Cell><Data ss:Type="String">Renewed Vision</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">ProPresenter has been the preferred lyric presentation system for churches and ministries around the world for years. With an intuitive interface and incredible video engine, ProPresenter has never been easier or more spectacular. ProPresenter 3 has been written from the ground up as a Universal binary which means it fully supports both PowerPC as well as Intel processor Macs natively. Thus, its very fast and very responsive. The whole program is scalable to adjust to any size display and&#10;allows for slides and backgrounds to grow or shrink easily. This looks beautiful on all those new Macs with high-resolution displays and comes in very handy when you want to see a lot of slides or clips at a time.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.renewedvision.com/index.php</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">Pulseway</Data></Cell>
+    <Cell><Data ss:Type="String">Pulseway</Data></Cell>
+    <Cell><Data ss:Type="String">Pulseway changes the enterprise monitoring and management game with its mobile management solution. Now you can receive alerts and manage your systems from anywhere on any device. Monitor and manage all of your Windows, Linux, and Mac servers and workstations with a simple app on your mobile device.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.pulseway.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">PuTTY</Data></Cell>
+    <Cell><Data ss:Type="String">Simon Tatham</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PuTTY is a free implementation of Telnet and SSH for Windows and Unix platforms.&#10;&#10;A simple, lightweight client for connecting to a Linux shell from your Windows machine!</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.chiark.greenend.org.uk/~sgtatham/putty/</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">PyCharm</Data></Cell>
+    <Cell><Data ss:Type="String">JetBrains</Data></Cell>
+    <Cell><Data ss:Type="String">Python and Django IDE with refactorings, code completion, on-the-fly code analysis and other features, including version control integration, deployment, integration with issue trackers, and remote debugging. </Data></Cell>
+    <Cell><Data ss:Type="String">https://www.jetbrains.com/pycharm/</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">Resilio Sync</Data></Cell>
+    <Cell><Data ss:Type="String">BitTorrent</Data></Cell>
+    <Cell><Data ss:Type="String">Resilio Sync allows you to automatically sync files between computers via secure, distributed technology (P2P bittorrent protocol).</Data></Cell>
+    <Cell><Data ss:Type="String">https://www.getsync.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Resource Hacker</Data></Cell>
+    <Cell><Data ss:Type="String">Angus Johnson</Data></Cell>
+    <Cell><Data ss:Type="String">Resource Hacker has been designed to be the complete resource editing tool: compiling, viewing, decompiling and recompiling resources for both 32bit and 64bit Windows executables.</Data></Cell>
+    <Cell><Data ss:Type="String">http://angusj.com/resourcehacker/</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">Revo Uninstaller</Data></Cell>
+    <Cell><Data ss:Type="String">VS Revo Group</Data></Cell>
+    <Cell><Data ss:Type="String">Revo Uninstaller helps uninstall software from Windows systems and has a free and a pro version. Its main purpose is to remove unnecessary files and registry entries left behind by incomplete program uninstallation routines. Revo Uninstaller is a much faster and more powerful alternative to &quot;Windows Add or Remove Programs&quot; applet.&#160;</Data></Cell>
+    <Cell><Data ss:Type="String">http://alternativeto.net/outgoing/software/revo-uninstaller</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">Sandboxie</Data></Cell>
+    <Cell><Data ss:Type="String">Invincea</Data></Cell>
+    <Cell><Data ss:Type="String">Sandboxie runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer. Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially. Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and dont leak into Windows.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.sandboxie.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">Sibelius</Data></Cell>
+    <Cell><Data ss:Type="String">Avid</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sibelius is the world’s best-selling music notation software, trusted by top composers, publishers, and students alike. With Sibelius 7.5, you can express, accelerate, and promote your creativity in more ways than ever before, enabling you to deliver beautiful, professional scores faster and share audio and video versions of your work—with stunningly realistic musical phrasing—to make your talent stand out from the crowd. It’s the fastest, smartest, easiest way to write music for live&#10;performance, film and television, media entertainment, or in the classroom.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.sibelius.com/products/sibelius/index.html</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">SmartGit</Data></Cell>
+    <Cell><Data ss:Type="String">Syntevo</Data></Cell>
+    <Cell><Data ss:Type="String">SmartGit is a front-end for the distributed version control system Git and runs on Windows, Mac OS X and Linux. SmartGit is intended for developers who prefer a graphical user interface over a command line client, to be even more productive with Git — the most powerful DVCS today.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.syntevo.com/smartgit/</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="255">
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">SONAR</Data></Cell>
+    <Cell><Data ss:Type="String">Cakewalk</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cakewalk SONAR is a computer program made by Cakewalk for recording, editing, mixing, mastering and outputting audio. &#10;SONAR is an example of a digital audio workstation (DAW). Sonar is like most DAWs, however SONAR lets the user:&#10;&#10;* Record and manipulate an unlimited amount of multitrack digital audio (only limited by hardware)&#10;* Comprehensively record and manipulate MIDI data&#10;* Apply any DirectX special&#10;effects, such as reverb and delay, many versions bundled with included effects&#10;* Automate the process of mixing audio&#10;* Utilize virtual instruments, such as software synthesizers, software samplers, software drum machines&#10;* Connect to other multimedia applications with sample accuracy via Rewire&#10;* SONAR Producer Edition includes a complete industry-standard 64-bit MASTERING suite [5]&#10;&#10;Link to official Cakewalk SONAR site</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.cakewalk.com/products/sonar</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">Spacedesk</Data></Cell>
+    <Cell><Data ss:Type="String">datronicsoft Inc</Data></Cell>
+    <Cell><Data ss:Type="String">spacedesk is a windows network display monitor software that expands the Windows desktop computer screen to other computers over the local area network.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.spacedesk.ph/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">Spotify</Data></Cell>
+    <Cell><Data ss:Type="String">Spotify</Data></Cell>
+    <Cell><Data ss:Type="String">Spotify is a commercial music streaming service providing digital rights management-restricted content from record labels including Sony, EMI, Warner Music Group and Universal.</Data></Cell>
+    <Cell><Data ss:Type="String">https://spotify.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">Startup Delayer</Data></Cell>
+    <Cell><Data ss:Type="String">r2 Studios</Data></Cell>
+    <Cell><Data ss:Type="String">Startup Delayer gives you the power to optimize your Startup Process by delaying applications from starting up as soon as you log into your computer.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.r2.com.au/page/products/show/startdelay</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">Steam</Data></Cell>
+    <Cell><Data ss:Type="String">Valve Corporation</Data></Cell>
+    <Cell><Data ss:Type="String">Steam is a digital distribution, digital rights management, multiplayer and communications platform developed by Valve Corporation. It is used to distribute a wide range of games and related media entirely over the internet, stretching from one-man independent efforts to some of the worlds most popular games. Steam is set apart from its peers in terms of functionality primarily by its residency in the system tray, and the desktop tasks that the client software performs to make use of that position.</Data></Cell>
+    <Cell><Data ss:Type="String">http://store.steampowered.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">Suitcase Fusion</Data></Cell>
+    <Cell><Data ss:Type="String">Extensis</Data></Cell>
+    <Cell><Data ss:Type="String">Font management software. Search, preview and activate fonts. Detect and correct corrupt fonts. Suitcase Fusion is an early adopter too with seamless auto-activation support for Adobe InDesign, Adobe Illustrator and QuarkXPress.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.extensis.com/font-management/suitcase-fusion/</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Height="135">
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">Synergy</Data></Cell>
+    <Cell><Data ss:Type="String">Symless</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware. Its intended for users with multiple computers on their desk since each system uses its own monitor(s).&#10;&#10;This solves the problem of having multiple keyboards and mice.&#10;Redirecting the mouse and keyboard is as simple as moving the mouse off the edge of your screen. Synergy also merges the clipboards of all the systems into one, allowing cut-and-paste between systems. Furthermore, it synchronizes screen savers so they all start and stop together and, if screen locking is enabled, only on.</Data></Cell>
+    <Cell><Data ss:Type="String">http://symless.com/synergy/</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">Unlocker</Data></Cell>
+    <Cell><Data ss:Type="String">Empty Loop</Data></Cell>
+    <Cell><Data ss:Type="String">Get rid of error message like Error deleting or renaming file or folder, cannot delete folder: its being used by another person or program Unlocker application was designed to be a very useful Windows Explorer extension allowing users with a simple right-click on a file or folder to easily get rid of error message such as error deleting file or folder, cannot delete or rename folders.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.emptyloop.com/unlocker/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">Vector Magic</Data></Cell>
+    <Cell><Data ss:Type="String">Vector Magic, Inc.</Data></Cell>
+    <Cell><Data ss:Type="String">Vector Magic automatically converts bitmap images like JPEGs, GIFs and PNGs to the crisp, clean, scalable vector art of EPS, SVG, and PDF.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.vectormagic.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">Virtual Audio Cable</Data></Cell>
+    <Cell><Data ss:Type="String">Eugene Muzychenko</Data></Cell>
+    <Cell><Data ss:Type="String">Ever wanted to record your speaker output? (loopback) This is for you. It makes tinkering with the audio of each individual application much easier. As well as being able to loop-back.</Data></Cell>
+    <Cell><Data ss:Type="String">http://software.muzychenko.net/eng/vac.html</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Visual Studio</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs for Microsoft Windows, as well as web sites, web applications and web services. Visual Studio uses Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, Windows Store and Microsoft Silverlight. It can produce both native code and managed code.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.visualstudio.com/products/visual-studio-express-vs</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">VLC</Data></Cell>
+    <Cell><Data ss:Type="String">VideoLAN</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.&#10;&#10;Features</Data></Cell>
+    <Cell><Data ss:Type="String">http://videolan.org/vlc</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">VSCode</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft</Data></Cell>
+    <Cell><Data ss:Type="String">Code combines the streamlined UI of a modern editor with rich code assistance and navigation, and an integrated debugging experience – without the need for a full IDE.</Data></Cell>
+    <Cell><Data ss:Type="String">https://code.visualstudio.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">VueMinder</Data></Cell>
+    <Cell><Data ss:Type="String">VueSoft LLC</Data></Cell>
+    <Cell><Data ss:Type="String">Take control of your schedule and get reminded wherever and however you want. Instantly access your appointments, tasks, and notes with a simple glance at a transparent calendar that sits right on your Windows desktop. Share calendars and reminders in your home, office, or online. Automatically synchronize with Google Calendar and Outlook. Print calendars using a wide variety of layouts and styles. You can do all these things and much more with VueMinder Calendar.</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.vueminder.com/</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">waifu2x</Data></Cell>
+    <Cell><Data ss:Type="String">nagadomi</Data></Cell>
+    <Cell><Data ss:Type="String">Single-Image Super-Resolution for Anime-Style Art using Deep Convolutional Neural Networks. And it supports photo.</Data></Cell>
+    <Cell><Data ss:Type="String">http://waifu2x.udp.jp/</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">WinDirStat</Data></Cell>
+    <Cell><Data ss:Type="String">WinDirStat</Data></Cell>
+    <Cell><Data ss:Type="String">WinDirStat is a disk usage statistics viewer and cleanup tool</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.windirstat.info/</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="210">
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">WinOFF</Data></Cell>
+    <Cell><Data ss:Type="String">AMPsoft</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">AMP WinOFF is an utility designed to schedule the shut down of Windows computers, with several shut down modes and fully configurable. Some of its features are:&#10;&#10;Scheduled shut downs, either at a set time (e.g. 12:00 PM) or after a period of time (e.g. 1 hour and 15 minutes).&#10;&#10;Perform a shut down when the CPU becomes idle, or when network adapter becomes idle (after downloading and/or uploading).&#10;&#10;Several types of shut down (shut down, restart, close session, power off, administrative shut down/restart, suspend, hibernate and lock computer).&#10;&#10;Immediate shut down and computer lock from the task bar icon menu.&#10;Several security options includi</Data></Cell>
+    <Cell><Data ss:Type="String">http://www.ampsoft.net/utilities/WinOFF.php</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">Workstation</Data></Cell>
+    <Cell><Data ss:Type="String">VMware</Data></Cell>
+    <Cell><Data ss:Type="String">Discover the true power and flexibility of your desktop or laptop computer with VMware Workstation. Reduce hardware costs by 50% or more by running multiple operating systems simultaneously on a single physical PC. Automate and streamline tasks to save time and improve productivity. Join the millions worldwide who use Workstation to:</Data></Cell>
+    <Cell><Data ss:Type="String">http://vmware.com/products/workstation</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
