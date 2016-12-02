@@ -1,6 +1,6 @@
 
     </div>
-  <?php if($pageElevator){ echo 
+  <?php if(@$pageElevator){ echo 
  '  <footer class="footer">
       <div class="do-the-thing">
         <div class="elevator">
@@ -11,18 +11,17 @@
           Back to Top
         </div>
       </div>
-    </footer>';}
-    ?> 
+    </footer>
     <script>
     // Simple elevator usage.
-      var elementButton = document.querySelector('.elevator');
+      var elementButton = document.querySelector(".elevator");
       var elevator = new Elevator({
         element: elementButton,
         // Music from http://www.bensound.com :)
-        mainAudio: './js/elevatorjs/elevator.mp3',
-        endAudio:  './js/elevatorjs/ding.mp3',
+        mainAudio: "./js/elevatorjs/elevator.mp3",
+        endAudio:  "./js/elevatorjs/ding.mp3",
         duration: 8000,
       });
-    </script>
+    </script>';}?> 
   </body>
 </html>

@@ -10,20 +10,20 @@
 
     <link rel="icon" type="image/png" href="images/favicon.png">
     <?php 
-    if ($pageElevator) {echo "<script src='js/elevator.min.js'></script>\n";}
+    if (@$pageElevator) {echo "<script src='js/elevator.min.js'></script>\n";}
     echo "    <title>$pageTitle</title>";
      ?>
   </head>
   <body>
-    <div class="container"<?php if ($pageNavigation) echo ' style="margin-top: 6.5rem"';?>>
-      <?php if ($pageNavigation) { echo
+    <div class="container"<?php if (@$pageNavigation) echo ' style="margin-top: 6.5rem"';?>>
+      <?php if (@$pageNavigation) { echo
       '<nav class="navbar">
         <div class="container">
           <ul class="navbar-list">
             <li class="navbar-item"><a class="navbar-link" href=".">Home</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#">Code</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#examples">Examples</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#">More</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#all">View All</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#random">Examples</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#add">More</a></li>
           </ul>
         </div>
       </nav>';}?>
