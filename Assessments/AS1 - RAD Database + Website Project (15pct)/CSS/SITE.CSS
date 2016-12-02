@@ -1,3 +1,13 @@
+tbody tr:nth-child(even) {
+    background-color: #F7F9F9;
+}
+tbody tr:hover {
+    background-color: #E5E7E9;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 .footer {
     box-sizing: border-box;
     padding-top: 190px;
