@@ -4,8 +4,8 @@
  * Andrew Wong 2016                              *
  * http://github.com/bearbear12345/school_sdd_db *
  * * * * * * * * * * * * * * * * * * * * * * * * */
-include_once 'globals/header1.php'; ?>
-MyBiz | Home<?php include_once 'globals/header2.php'; ?>
+ $pageTitle = "MyBiz | Home";
+include_once 'globals/header.php'; ?>
       <section class="header">
         <h2 class="title">= MyBiz Landing =</h2>
         <div class="value-props row">
