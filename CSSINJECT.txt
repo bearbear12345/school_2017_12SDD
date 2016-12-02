@@ -1,0 +1,10 @@
+.container {
+    max-width: inherit;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+}
+body > div > table {
+    margin-top: 6.5rem;
+}
