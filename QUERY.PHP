@@ -1,13 +1,13 @@
 <?php
-/* * * * * * * * * * * * * * * * * * * * * * * * * 
+/* * * * * * * * * * * * * * * * * * * * * * * * *
  * Filename: query.php                           *
  * Andrew Wong 2016                              *
  * http://github.com/bearbear12345/school_sdd_db *
  * * * * * * * * * * * * * * * * * * * * * * * * */
 // START OPTIONS
-$pageElevator   = true;
+$pageElevator   = isset($_GET['aid']) ? false : true;
 $pageNavigation = true;
-$pageTitle      = "MyBiz | Home";
+$pageTitle      = "TopApps";
 
 // END OPTIONS
 include_once 'globals/header.php';
@@ -38,34 +38,51 @@ if (isset($_GET['sort'])) {
             break;
     endswitch;
     $order = " ORDER BY `$sortsubject` $sortdirection";
-    echo $order;
 }
 $sql_category = isset($_GET['cat']) ? " AND applicationdb.Category = " . filter_input(INPUT_GET, 'cat', FILTER_SANITIZE_URL) : "";
 
 include_once "lib/dbconnect.php";
-$sql = "SELECT `Product Name`, `Publisher`, `Description`, `Product Link`, `CategoryID`, `CategoryName` as `Category` FROM `applicationdb`, `categorydb` where applicationdb.Category = categorydb.categoryid" . $sql_category . $order;
-$s   = mysql_query($sql, $db);
-@$record = mysql_fetch_array($s);
-echo "\n      <table class='u-full-width'>";
-echo "
+
+if (!isset($_GET['aid'])) {
+    $sql = "SELECT `AID`, `Product Name`, `Publisher`, `Description`, `Product Link`, `CategoryID`, `CategoryName` FROM `applicationdb`, `categorydb` where applicationdb.Category = categorydb.categoryid" . $sql_category . $order;
+    $s   = mysql_query($sql, $db);
+    echo "\n      <table class='u-full-width'>";
+    echo "
         <thead><tr><th><span id='headername'>Product Name</span></td><th><span id='headerpublisher'>Publisher</span></th><th>Description</th><th>Product Website</th>" . (!isset($_GET['cat']) ? "<th><span id='headercategory'>Category</span></th>" : "") . "</tr></thead>
         <tbody>\n";
-while ($record = @mysql_fetch_array($s)) {
-    $appname  = $record['Product Name'];
-    $apppubl  = $record['Publisher'];
-    $appdesc  = $record['Description'];
-    $appsite  = $record['Product Link'];
-    $appcate  = $record['Category'];
-    $appcati  = $record['CategoryID'];
-    $_apppubl = substr($apppubl, 0, 20) . "...";
-    $_appsite = preg_replace('/.*?:\/\/(?:www.)?(.+?)\/?$/', '${1}', $appsite);
-    $_appsite = strlen($_appsite) > 29 ? substr($_appsite, 0, 26) . "..." : $_appsite;
-    $_appdesc = strlen($appdesc) > 200 ? substr($appdesc, 0, 200) . "..." : $appdesc;
-    echo "          <tr><td>$appname</td><td>$apppubl</td><td>$_appdesc</td><td><a href='$appsite'>$_appsite</a></td>" . (!isset($_GET['cat']) ? "<td><a href='query.php?cat=$appcati' style='color: black; text-decoration: none'>$appcate</a></td>" : "") . "</tr>\n";
+    while ($record = @mysql_fetch_array($s)) {
+        $appiden  = $record['AID'];
+        $appname  = $record['Product Name'];
+        $apppubl  = $record['Publisher'];
+        $appdesc  = $record['Description'];
+        $appsite  = $record['Product Link'];
+        $appcate  = $record['CategoryName'];
+        $appcati  = $record['CategoryID'];
+        $_apppubl = substr($apppubl, 0, 20) . "...";
+        $_appsite = preg_replace('/.*?:\/\/(?:www.)?(.+?)\/?$/', '${1}', $appsite);
+        $_appsite = strlen($_appsite) > 29 ? substr($_appsite, 0, 26) . "..." : $_appsite;
+        $_appdesc = strlen($appdesc) > 200 ? substr($appdesc, 0, 200) . "..." : $appdesc;
+        echo "          <tr onclick='window.location.search=\"aid=$appiden\"'><td>$appname</td><td>$apppubl</td><td>$_appdesc</td><td><a href='$appsite'>$_appsite</a></td>" . (!isset($_GET['cat']) ? "<td><a href='query.php?cat=$appcati' style='color: black; text-decoration: none'>$appcate</a></td>" : "") . "</tr>\n";
+    }
+    echo "        </tbody>\n      </table>\n<script src='js/site.js'></script>";
+} else {
+
+    $sql = "SELECT `Product Name`, `Publisher`, `Description`, `Product Link`, `CategoryID`, `CategoryName` FROM `applicationdb`, `categorydb` where applicationdb.Category = categorydb.categoryid AND applicationdb.aid = " . filter_input(INPUT_GET, 'aid', FILTER_SANITIZE_URL);
+    $s   = mysql_query($sql, $db);
+
+    if (!mysql_num_rows($s))
+        header("Location: query.php");
+    @$record = mysql_fetch_array($s);
+    $appname = $record['Product Name'];
+    $apppubl = $record['Publisher'];
+    $appdesc = $record['Description'];
+    $appsite = $record['Product Link'];
+    $appcate = $record['CategoryName'];
+    $appcati = $record['CategoryID'];
+    echo "<h1>$appname</h1><h5>Publisher: $apppubl</br>Product Link: <a href='$appsite' style='color: black; text-decoration: none'>" . preg_replace('/.*?:\/\/(?:www.)?(.+?)\/?$/', '${1}', $appsite) . "</a></br>Category: <a href='query.php?cat=$appcati' style='color: black; text-decoration: none'>$appcate</a></h5>$appdesc";
 }
-echo "        </tbody>\n      </table>";
 ?>
-<script src='js/site.js'></script>
+
 <?php
 include_once 'globals/footer.php';
 ?>

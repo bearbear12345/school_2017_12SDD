@@ -1,20 +1,20 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.2.2
+-- version 4.5.1
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Dec 01, 2016 at 02:49 PM
--- Server version: 5.5.27
--- PHP Version: 5.2.17
+-- Host: 127.0.0.1
+-- Generation Time: Dec 02, 2016 at 12:51 PM
+-- Server version: 10.1.19-MariaDB
+-- PHP Version: 5.6.28
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `andreww`
@@ -26,8 +26,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `applicationdb`
 --
 
-CREATE TABLE IF NOT EXISTS `applicationdb` (
-  `AID` int(2) DEFAULT NULL,
+CREATE TABLE `applicationdb` (
+  `AID` int(2) NOT NULL,
   `Product Name` varchar(19) DEFAULT NULL,
   `Publisher` varchar(31) DEFAULT NULL,
   `Description` varchar(1007) DEFAULT NULL,
@@ -79,9 +79,9 @@ INSERT INTO `applicationdb` (`AID`, `Product Name`, `Publisher`, `Description`, 
 (37, 'PyCharm', 'JetBrains', 'Python and Django IDE with refactorings, code completion, on-the-fly code analysis and other features, including version control integration, deployment, integration with issue trackers, and remote debugging. ', 'https://www.jetbrains.com/pycharm/', 2),
 (38, 'Resilio Sync', 'BitTorrent', 'Resilio Sync allows you to automatically sync files between computers via secure, distributed technology (P2P bittorrent protocol).', 'https://www.getsync.com/', 3),
 (39, 'Resource Hacker', 'Angus Johnson', 'Resource Hacker has been designed to be the complete resource editing tool: compiling, viewing, decompiling and recompiling resources for both 32bit and 64bit Windows executables.', 'http://angusj.com/resourcehacker/', 2),
-(40, 'Revo Uninstaller', 'VS Revo Group', 'Revo Uninstaller helps uninstall software from Windows systems and has a free and a pro version. Its main purpose is to remove unnecessary files and registry entries left behind by incomplete program uninstallation routines. Revo Uninstaller is a much faster and more powerful alternative to "Windows Add or Remove Programs" applet. ', 'http://alternativeto.net/outgoing/software/revo-uninstaller', 8),
+(40, 'Revo Uninstaller', 'VS Revo Group', 'Revo Uninstaller helps uninstall software from Windows systems and has a free and a pro version. Its main purpose is to remove unnecessary files and registry entries left behind by incomplete program uninstallation routines. Revo Uninstaller is a much faster and more powerful alternative to "Windows Add or Remove Programs" applet. ', 'http://www.revouninstaller.com', 8),
 (41, 'Sandboxie', 'Invincea', 'Sandboxie runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer. Secure Web Browsing: Running your Web browser under the protection of Sandboxie means that all malicious software downloaded by the browser is trapped in the sandbox and can be discarded trivially. Enhanced Privacy: Browsing history, cookies, and cached temporary files collected while Web browsing stay in the sandbox and dont leak into Windows.', 'http://www.sandboxie.com/', 8),
-(42, 'Sibelius', 'Avid', 'Sibelius is the world’s best-selling music notation software, trusted by top composers, publishers, and students alike. With Sibelius 7.5, you can express, accelerate, and promote your creativity in more ways than ever before, enabling you to deliver beautiful, professional scores faster and share audio and video versions of your work—with stunningly realistic musical phrasing—to make your talent stand out from the crowd. It’s the fastest, smartest, easiest way to write music for live\r\nperformance, film and television, media entertainment, or in the classroom.', 'http://www.sibelius.com/products/sibelius/index.html', 1),
+(42, 'Sibelius', 'Avid', 'Sibelius is the world''s best-selling music notation software, trusted by top composers, publishers, and students alike. With Sibelius 7.5, you can express, accelerate, and promote your creativity in more ways than ever before, enabling you to deliver beautiful, professional scores faster and share audio and video versions of your work-with stunningly realistic musical phrasing-to make your talent stand out from the crowd. It''s the fastest, smartest, easiest way to write music for live\r\nperformance, film and television, media entertainment, or in the classroom.', 'http://www.sibelius.com/products/sibelius/index.html', 1),
 (43, 'SmartGit', 'Syntevo', 'SmartGit is a front-end for the distributed version control system Git and runs on Windows, Mac OS X and Linux. SmartGit is intended for developers who prefer a graphical user interface over a command line client, to be even more productive with Git — the most powerful DVCS today.', 'http://www.syntevo.com/smartgit/', 2),
 (44, 'SONAR', 'Cakewalk', 'Cakewalk SONAR is a computer program made by Cakewalk for recording, editing, mixing, mastering and outputting audio. \r\nSONAR is an example of a digital audio workstation (DAW). Sonar is like most DAWs, however SONAR lets the user:\r\n\r\n* Record and manipulate an unlimited amount of multitrack digital audio (only limited by hardware)\r\n* Comprehensively record and manipulate MIDI data\r\n* Apply any DirectX special\r\neffects, such as reverb and delay, many versions bundled with included effects\r\n* Automate the process of mixing audio\r\n* Utilize virtual instruments, such as software synthesizers, software samplers, software drum machines\r\n* Connect to other multimedia applications with sample accuracy via Rewire\r\n* SONAR Producer Edition includes a complete industry-standard 64-bit MASTERING suite [5]\r\n\r\nLink to official Cakewalk SONAR site', 'http://www.cakewalk.com/products/sonar', 1),
 (45, 'Spacedesk', 'datronicsoft Inc', 'spacedesk is a windows network display monitor software that expands the Windows desktop computer screen to other computers over the local area network.', 'http://www.spacedesk.ph/', 8),
@@ -108,8 +108,8 @@ INSERT INTO `applicationdb` (`AID`, `Product Name`, `Publisher`, `Description`, 
 -- Table structure for table `categorydb`
 --
 
-CREATE TABLE IF NOT EXISTS `categorydb` (
-  `categoryid` int(2) DEFAULT NULL,
+CREATE TABLE `categorydb` (
+  `categoryid` int(2) NOT NULL,
   `categoryname` varchar(23) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -130,6 +130,24 @@ INSERT INTO `categorydb` (`categoryid`, `categoryname`) VALUES
 (10, 'Photos & Graphics'),
 (11, 'Social & Communications'),
 (12, 'Web Browsers');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `applicationdb`
+--
+ALTER TABLE `applicationdb`
+  ADD PRIMARY KEY (`AID`),
+  ADD UNIQUE KEY `AID` (`AID`);
+
+--
+-- Indexes for table `categorydb`
+--
+ALTER TABLE `categorydb`
+  ADD PRIMARY KEY (`categoryid`),
+  ADD UNIQUE KEY `categoryid` (`categoryid`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
