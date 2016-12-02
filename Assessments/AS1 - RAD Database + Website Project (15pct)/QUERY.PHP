@@ -46,9 +46,10 @@ include_once "lib/dbconnect.php";
 if (!isset($_GET['aid'])) {
     $sql = "SELECT `AID`, `Product Name`, `Publisher`, `Description`, `Product Link`, `CategoryID`, `CategoryName` FROM `applicationdb`, `categorydb` where applicationdb.Category = categorydb.categoryid" . $sql_category . $order;
     $s   = mysql_query($sql, $db);
+    echo "<h4>Viewing applications in " . mysql_fetch_array($s)['CategoryName'] . "</h4>";
     echo "\n      <table class='u-full-width'>";
     echo "
-        <thead><tr><th><span id='headername'>Product Name</span></td><th><span id='headerpublisher'>Publisher</span></th><th>Description</th><th>Product Website</th>" . (!isset($_GET['cat']) ? "<th><span id='headercategory'>Category</span></th>" : "") . "</tr></thead>
+        <thead><tr><th><span id='headername' style='cursor:pointer'>Product Name</span></td><th><span id='headerpublisher' style='cursor:pointer'>Publisher</span></th><th>Description</th><th>Product Website</th>" . (!isset($_GET['cat']) ? "<th><span id='headercategory' style='cursor:pointer'>Category</span></th>" : "") . "</tr></thead>
         <tbody>\n";
     while ($record = @mysql_fetch_array($s)) {
         $appiden  = $record['AID'];
