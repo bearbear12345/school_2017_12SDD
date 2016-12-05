@@ -15,15 +15,16 @@
      ?>
   </head>
   <body>
-    <div class="container"<?php if (@$pageNavigation) echo ' style="margin-top: 7.5rem"';?>>
+    
+    <div class="container">
       <?php if (@$pageNavigation) { echo
-      '<nav class="navbar">
+      '<nav id="navbar">
         <div class="container">
-          <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href=".">Home</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="./query.php">View All</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="./random.php">View Random</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="./submit.php">Add App</a></li>
+          <ul>
+            <li><a href=".">Home</a></li>
+            <li><a href="./query.php">View All</a></li>
+            <li><a href="./random.php">View Random</a></li>
+            <li><a href="./submit.php">Add App</a></li>
           </ul>
         </div>
       </nav>';}?>

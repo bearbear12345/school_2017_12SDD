@@ -1,41 +1,35 @@
 <?php
-
-/* * * * * * * * * * * * * * * * * * * * * * * * * *
- * Filename: submit.php                            *
- * Andrew Wong 2016                                *
- * http://github.com/bearbear12345/school_sdd_db   *
- * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Filename: submit.php                                *
+ * Andrew Wong 2016                                    *
+ * https://github.com/bearbear12345/school_2017_12SDD  *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 // START OPTIONS
 $pageElevator   = false;
 $pageNavigation = true;
 $pageTitle      = "TopApps";
-
 // END OPTIONS
+
 include_once 'globals/header.php';
 include_once "lib/dbconnect.php";
 
+/* Handle form submits by adding the data to the SQL database */
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	/* Extract variable data from the URL */
     $inputName        = filter_input(INPUT_POST, 'inputName', FILTER_SANITIZE_URL);
     $inputPublisher   = filter_input(INPUT_POST, 'inputPublisher', FILTER_SANITIZE_URL);
     $inputCategory    = filter_input(INPUT_POST, 'inputCategory', FILTER_SANITIZE_URL);
     $inputWebsite     = filter_input(INPUT_POST, 'inputWebsite', FILTER_SANITIZE_URL);
     $inputDescription = filter_input(INPUT_POST, 'inputDescription', FILTER_SANITIZE_URL);
     
-    $sql      = "SELECT * FROM `applicationdb`";
-    $s        = mysql_query($sql, $db);
-    $num_rows = mysql_num_rows($s);
-    $aid      = $num_rows + 1;
-
+    $aid      = mysql_num_rows(mysql_query("SELECT * FROM `applicationdb`", $db)) + 1; // Get new AID
     $sql      = "INSERT INTO `applicationdb` (`AID`, `Product Name`, `Publisher`, `Description`, `Product Link`, `Category`) VALUES ($aid, '$inputName', '$inputPublisher', '$inputDescription', '$inputWebsite', $inputCategory)";
-    $t        = mysql_query($sql, $db);
+    $s        = mysql_query($sql, $db); // Execute query
     
-    header("Location: query.php?aid=$aid");
+    header("Location: query.php?aid=$aid"); // Redirect to new application
 }
-
 ?>
 
-
-<!-- The above form looks like this -->
 <form action="submit.php" method="post">
   <div class="row">
     <div class="six columns">
