@@ -1,6 +1,29 @@
+/* Content margin to allow room for navigation bar */
 body > div {
     margin-top: 7.5rem !important;
 }
+
+/* Set hyperlink styling */
+a {
+    color: #222 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #0FA0CE !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Push footer down */
+footer {
+    box-sizing: border-box;
+    padding-top: 190px;
+    height: 300px;
+}
+
+/* Query Page */
 #querytable tbody tr:nth-child(even) {
     background-color: #F7F9F9;
 }
@@ -23,22 +46,8 @@ body > div {
 #headername, #headerpublisher, #headercategory {
     cursor: pointer;
 }
-a {
-    color: #222 !important;
-    text-decoration: none !important;
-}
-a:hover {
-    color: #0FA0CE !important;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-.footer {
-    box-sizing: border-box;
-    padding-top: 190px;
-    height: 300px;
-}
+
+/* Scroll To Top Elevator */
 .elevator {
     text-align: center;
     cursor: pointer;
@@ -55,25 +64,26 @@ a:hover {
     margin: auto;
     margin-bottom: 5px;
 }
+
+/* Index Page */
 #indexheader {
-    /* margin-top: 6rem; */
     margin-top: 20%;
     text-align: center;
 }
-.value-prop {
+#indexheader div div {
     margin-top: 1rem;
 }
-.value-props {
+#indexheader > div {
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
-.value-img {
+#indexheader img {
     display: block;
     text-align: center;
     margin: 2.5rem auto 0;
 }
-/* Navbar */
 
+/* Navbar */
 #navbar {
     display: block;
     width: 100%;

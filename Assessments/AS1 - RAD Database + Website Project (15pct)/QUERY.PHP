@@ -17,7 +17,6 @@ include_once 'lib/dbconnect.php';
 /* Show entire application database */
 if (!isset($_GET['aid'])) {
     
-
     echo "      <script src='js/list.min.js'></script>\n      <script src='js/list.fuzzysearch.min.js'></script>\n";
     
     /* Handle record sorting */
@@ -37,6 +36,7 @@ if (!isset($_GET['aid'])) {
                     $sortsubject = "Category";
                     break;
             endswitch;
+
             /* Check sort direction */
             switch ($sort[1]):
                 case "a":

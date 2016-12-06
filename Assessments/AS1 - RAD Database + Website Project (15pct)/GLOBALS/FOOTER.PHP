@@ -1,6 +1,6 @@
     </div>
   <?php if(@$pageElevator){ echo 
- "  <footer class='footer'>
+ "  <footer>
       <div class='do-the-thing'>
         <div class='elevator'>
           <svg class='sweet-svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 100 100' enable-background='new 0 0 100 100' xml:space='preserve' height='100px' width='100px'>

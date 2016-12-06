@@ -1,6 +1,6 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *
- * Filename: submit.php                                *
+ * Filename: manage.php                                *
  * Andrew Wong 2016                                    *
  * https://github.com/bearbear12345/school_2017_12SDD  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
